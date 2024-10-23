@@ -1,0 +1,20 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Descrição do seu projeto",
+  "main": "src/app.js", 
+  "scripts": {
+    "start": "node src/app.js",  
+    "test": "echo \"No test specified\" && exit 0"  
+  },
+  "keywords": [],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {}
+}
