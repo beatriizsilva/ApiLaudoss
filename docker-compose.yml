@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   app:
-    build: .
+    image: bia2002/apilaudoss-app:latest
     ports:
       - "9999:9999"
     environment:
@@ -17,3 +17,4 @@ services:
 
 volumes:
   mongo-data:
+
